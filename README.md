@@ -1,9 +1,9 @@
 # RFM Model
 
 RFM stands for Recnecy, Frequency and Monetary
-Recency: How much time has elapsed since a customer’s last activity or transaction with the brand? Activity is usually a purchase, although variations are sometimes used, e.g., the last visit to a website or use of a mobile app. In most cases, the more recently a customer has interacted or transacted with a brand, the more likely that customer will be responsive to communications from the brand.
-Frequency: How often has a customer transacted or interacted with the brand during a particular period of time? Clearly, customers with frequent activities are more engaged, and probably more loyal, than customers who rarely do so. And one-time-only customers are in a class of their own.
-Monetary: Also referred to as “monetary value,” this factor reflects how much a customer has spent with the brand during a particular period of time. Big spenders should usually be treated differently than customers who spend little. Looking at monetary divided by frequency indicates the average purchase amount – an important secondary factor to consider when segmenting customers.
+- Recency: How much time has elapsed since a customer’s last activity or transaction with the brand? Activity is usually a purchase, although variations are sometimes used, e.g., the last visit to a website or use of a mobile app. In most cases, the more recently a customer has interacted or transacted with a brand, the more likely that customer will be responsive to communications from the brand.
+- Frequency: How often has a customer transacted or interacted with the brand during a particular period of time? Clearly, customers with frequent activities are more engaged, and probably more loyal, than customers who rarely do so. And one-time-only customers are in a class of their own.
+- Monetary: Also referred to as “monetary value,” this factor reflects how much a customer has spent with the brand during a particular period of time. Big spenders should usually be treated differently than customers who spend little. Looking at monetary divided by frequency indicates the average purchase amount – an important secondary factor to consider when segmenting customers.
 
 ### The Matrix
 The matrix score range from 1 to 4:
@@ -11,18 +11,18 @@ The matrix score range from 1 to 4:
 - 4 high recency, low frequency, low monetary value
 
 The matrix is separated using quartiles (0.25,0.5,0.75)
-  Ex. if recency is less than or equal to 0.25 quantile is 1
-    If recency is less than or equal to 0.5 quantile is 2
-    If recency is less than or equal to 0.75 quantile is 3
-    If recency is more than 0.75 quantile is 4
-  Ex. if frequency is more than or equal to 0.75 quantile is 1
-    If frequency is less than or equal to 0.25 quantile is 4
-    If frequency is less than or equal to 0.5 quantile is 3
-    If frequency is less than or equal to 0.75 quantile is 2
-  Ex. if monetary value is more than 0.75 quantile is 1
-    If monetary value is less than or equal to 0.25 quantile is 4
-    If monetary value is less than or equal to 0.5 quantile is 3
-    If monetary value is less than or equal to 0.75 quantile is 2
+  - Ex. if recency is less than or equal to 0.25 quantile is 1
+    - If recency is less than or equal to 0.5 quantile is 2
+    - If recency is less than or equal to 0.75 quantile is 3
+    - If recency is more than 0.75 quantile is 4
+  - Ex. if frequency is more than or equal to 0.75 quantile is 1
+    - If frequency is less than or equal to 0.25 quantile is 4
+    - If frequency is less than or equal to 0.5 quantile is 3
+    - If frequency is less than or equal to 0.75 quantile is 2
+  - Ex. if monetary value is more than 0.75 quantile is 1
+    - If monetary value is less than or equal to 0.25 quantile is 4
+    - If monetary value is less than or equal to 0.5 quantile is 3
+    - If monetary value is less than or equal to 0.75 quantile is 2
 
 ### Understanding each class
 - Best Customers – This group consists of those customers who are found in R-Tier-1, F-Tier-1 and M-Tier-1, meaning that they transacted recently, do so often and spend more than other customers. The notation for this segment is 1-1-1; we’ll use this notation going forward.
